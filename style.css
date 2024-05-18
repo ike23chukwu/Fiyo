@@ -1,0 +1,474 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header li {
+    margin: 6px;
+}
+
+header ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.p1 {
+    display: flex;
+    flex-direction: row;
+    padding: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p1a h2 {
+    width: 100%;
+    max-width: 590px;
+    line-height: 42px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.p1a p {
+    width: 100%;
+    max-width: 538px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.p1 input {
+    padding: 5px 25px 5px 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.p1 button {
+    background-color: rgb(47, 47, 232);
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(47, 47, 232);
+    margin: 3px;
+}
+
+.p1 button a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.p2 {
+    display: flex;
+    flex-direction: row;
+    padding: 55px;
+    background-color: rgb(246, 248, 251);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p2a {
+    display: flex;
+    flex-direction: column;
+}
+
+.p2a h2 {
+    width: 100%;
+    max-width: 570px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.p2a p {
+    width: 100%;
+    max-width: 530px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.p2b {
+    border: 1px solid white;
+    background-color: white;
+    padding: 22px 20px 22px 25px;
+    margin-top: 35px;
+    border-radius: 7px;
+    box-shadow: box-shadow: 0px -1px 5px 5px rgba(200, 209, 219, 0.75);
+    -webkit-box-shadow: 0px -1px 5px 5px rgba(200, 209, 219, 0.75);
+    -moz-box-shadow: 0px -1px 5px 5px rgba(200, 209, 219, 0.75);
+    ;
+}
+
+.p2b p {
+    width: 100%;
+    max-width: 350px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(93, 89, 89);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p2bi {
+    display: flex;
+    flex-direction: row;
+}
+
+.p3 {
+    display: flex;
+    flex-direction: row;
+    padding: 55px;
+    background-color: rgb(92, 83, 145);
+    color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p3a h2 {
+    width: 100%;
+    max-width: 570px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.p3a p {
+    width: 100%;
+    max-width: 500px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.p3b {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.p3b input {
+    padding: 10px 50px 10px 10px;
+    width: 110%;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 0px 30px 10px 0px;
+}
+
+.p3b button {
+    background-color: rgb(47, 47, 232);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(47, 47, 232);
+    width: 60%;
+    margin: 3px;
+}
+
+.p3b button a {
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.p4 {
+    display: flex;
+    flex-direction: row;
+    padding: 55px;
+    color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.p4a p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.p4b li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+
+    header {
+        flex-direction: row;
+        font-size: 13px;
+        font-weight: 600;
+        justify-content: space-between;
+        align-items: center;
+        padding: 37px;
+    }
+
+    header img {
+        width: 30%;
+    }
+
+    .p1,
+    .p2 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p1 img {
+        width: 100%;
+        max-width: 350px;
+        height: 150px;
+    }
+
+    .p1 h2 {
+        font-size: 21px;
+        text-align: center;
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p1 p {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p1 input {
+        padding: 10px 25px 10px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    .p1 button {
+        background-color: rgb(47, 47, 232);
+        padding: 10px 25px;
+        border-radius: 5px;
+        border: 1px solid rgb(47, 47, 232);
+        margin: 5px 5px 5px 0px;
+        width: 112%;
+    }
+
+    .p2 h2 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p2 p {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p2b p {
+        font-size: 11px;
+        font-weight: 700;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p2bii img {
+        width: 100%;
+        max-width: 370px;
+        height: 150px;
+    }
+
+    .p3 {
+        flex-direction: column;
+    }
+
+    .p3a h2,
+    .p3a p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .p3 input {
+        padding: 10px 25px 10px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        width: 120%;
+    }
+
+    .p3 button {
+        background-color: rgb(47, 47, 232);
+        padding: 10px 25px;
+        border-radius: 5px;
+        border: 1px solid rgb(47, 47, 232);
+        margin: 5px 5px 5px 0px;
+        width: 115%;
+    }
+
+    .p4 {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .p4 li {
+        align-items: start;
+        font-size: 12px;
+    }
+
+    .p4a p {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pic {
+        align-content: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    header {
+        flex-direction: row;
+        font-size: 13px;
+        font-weight: 600;
+        justify-content: space-between;
+        align-items: center;
+        padding: 37px;
+    }
+
+    header img {
+        width: 30%;
+    }
+
+    .p1,
+    .p2 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p1 img {
+        width: 100%;
+        max-width: 500px;
+        height: 150px;
+    }
+
+    .p1 h2 {
+        font-size: 41px;
+        text-align: center;
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p1 p {
+        font-size: 35px;
+        text-align: center;
+        font-weight: 300;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p1 input {
+        padding: 10px 25px 10px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    .p1 button {
+        background-color: rgb(47, 47, 232);
+        padding: 10px 25px;
+        border-radius: 5px;
+        border: 1px solid rgb(47, 47, 232);
+        margin: 5px 5px 5px 0px;
+        width: 107%;
+    }
+
+    .p2 h2 {
+        font-size: 27px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p2 p {
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p2b p {
+        font-size: 15px;
+        font-weight: 700;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .p2bii img {
+        width: 100%;
+        max-width: 500px;
+        height: 150px;
+    }
+
+    .p3 {
+        flex-direction: column;
+    }
+
+    .p3a h2,
+    .p3a p {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .p3a p {
+        font-weight: 100;
+    }
+
+    .p3 input {
+        padding: 10px 25px 10px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        width: 120%;
+    }
+
+    .p3 button {
+        background-color: rgb(47, 47, 232);
+        padding: 10px 25px;
+        border-radius: 5px;
+        border: 1px solid rgb(47, 47, 232);
+        margin: 5px 5px 5px 0px;
+        width: 115%;
+    }
+
+    .p4 {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .p4 li {
+        align-items: start;
+        font-size: 12px;
+    }
+
+    .p4a p {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pic {
+        align-content: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+}
